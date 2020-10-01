@@ -42,7 +42,7 @@ public class ContactServiceImpl implements ContactService {
 	  public Contact getById(Integer id) throws NoDataFoundException
 	  {
 		  System.out.println("h1");
-		  System.out.println("11111111");
+		  System.out.println("22222222");
 		  
 		 Contact contact =contactDao.findById(id);
 		 
