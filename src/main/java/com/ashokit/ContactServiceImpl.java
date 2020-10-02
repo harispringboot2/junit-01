@@ -52,7 +52,7 @@ public class ContactServiceImpl implements ContactService {
 		 {
 			 throw new NoDataFoundException("NoDataFoundException ok");
 		 }
-		  
+		 System.out.println("hello");
 		return contact;
 		  
 	  }
