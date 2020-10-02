@@ -13,6 +13,7 @@ public class ContactServiceImpl implements ContactService {
 	public void SetContactDao(ContactDao contactDao)
 	{
 		this.contactDao=contactDao;
+		System.out.println("happy");
 				
 	}
 
