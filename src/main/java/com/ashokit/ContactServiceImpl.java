@@ -15,6 +15,13 @@ public class ContactServiceImpl implements ContactService {
 		this.contactDao=contactDao;
 				
 	}
+	public void SetContactDao1()
+	{
+		//work vnow
+		
+				
+	}
+
 
 	  public String getNameById(Integer id) {
 	  
